@@ -2,6 +2,7 @@
 
 This program decodes Windows Prefetch files for experimental and forensic purposes. 
 
+
 Some key features:
 
 -Output to TSK Body (Time line / mactime) format.
@@ -50,6 +51,8 @@ make
 
 Without OPEN SSL
 make pfreader-simple
+
+Do a quick 'cat Makefile' to see if any other compile options might work for you if the standard fails.
 
 There is no make install - If you would like; just copy the binary to /usr/local/bin or other location within your path.
 
