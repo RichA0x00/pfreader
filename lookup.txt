@@ -1,0 +1,3 @@
+C:\WINDOWS\system32\rundll32.exe|shell32.dll,Control_RunDLL main.cpl @0
+C:\Windows\System32\rundll32.exe|shell32.dll,Control_RunDLL main.cpl @0
+rundll32.exe|shell32.dll,Control_RunDLL main.cpl @0
