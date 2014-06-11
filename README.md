@@ -3,11 +3,17 @@
 This program decodes Windows Prefetch files for experimental and forensic purposes. 
 
 Some key features:
+
 -Output to TSK Body (Time line / mactime) format.
+
 --Shown under the Accessed time stamp.
+
 --Windows 8 files will include multiple execute time stamps. 
+
 --Optionally add time stamps from file system.
+
 ---Will use real create time if available (Windows API -create time- / MAC OSX -birth time-) 
+
 ---Note: If not using the time stamps from the file system then all other values are 0.
 
 -HTML Reporting
@@ -22,15 +28,16 @@ Some key features:
 
 -CYGWIN/OSX/Linux compatible
 
-This program was written to for the purpose of learning about the structures within the file.
+This program was written to for the purpose of learning about the structures within a prefetch file.
 
-So this code is not new by any means but I did incorporate aspects from many different designs and suggestions that I found on the web.
+The concepts and reversing of this file format was completed by many 
+others. So this code is not new by any means but I did incorporate aspects from many different designs and suggestions that I found on the web.
+
 And I tried to write this up with a bit of my own flair and only taking look at some examples to get the general idea. 
 But please see my links below and look at the great tools created by others. 
 
-But I have put together what makes sense to me to complete a forensic time line and then to take a deeper look when required within the same program.
-
-I welcome suggestions and I provide fair warning that this code is experimental. If anything is questionable please verify with another tool and I welcome suggestions.
+Just a fair warning - some aspects of this code is experimental.
+If anything is questionable please verify with another tool and I welcome suggestions.
 
 Some specific web sites that gave me some insight:
 The Forensic WIKI and it's accompanying links related to prefetch files.
