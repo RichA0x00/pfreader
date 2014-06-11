@@ -25,7 +25,7 @@ Some key features:
 This program was written to for the purpose of learning about the structures within the file.
 
 So this code is not new by any means but I did incorporate aspects from many different designs and suggestions that I found on the web.
-And I tried to write this up with a bit of my own flair and only taking look at examples to get the general idea. 
+And I tried to write this up with a bit of my own flair and only taking look at some examples to get the general idea. 
 But please see my links below and look at the great tools created by others. 
 
 But I have put together what makes sense to me to complete a forensic time line and then to take a deeper look when required within the same program.
